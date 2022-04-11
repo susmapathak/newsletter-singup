@@ -56,7 +56,7 @@ app.post("/", function(req,res) {
 
   })
 
-  // request.write(jsonData);
+  request.write(jsonData);
   request.end();
 
 
@@ -70,9 +70,3 @@ app.listen(process.env.PORT || 3000, function() {
   console.log("server is running on port 3000")
 });
 
-// api key
-// 2bd96b9a4468768f03fab5e5eae6838d - us14
-
-
-// list id
-// da55f80832
